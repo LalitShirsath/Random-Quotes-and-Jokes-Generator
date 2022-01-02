@@ -2,7 +2,7 @@ const quote = document.querySelector(".quote");
 const author = document.querySelector(".author");
 const btn = document.querySelector("#Qbtn");
 const tweetbtn = document.querySelector(".tweet-btn");
-
+const wa = document.querySelector("#wa");
 
 let content="";
 const generate = async() => {
@@ -16,6 +16,7 @@ const generate = async() => {
         content = content.concat(data.author);
     })
     tweetbtn.href = `https://twitter.com/intent/tweet?text=${content}`
+    wa.href = `https://api.whatsapp.com/send?text=${content}`
 }
 
 btn.addEventListener("click",generate);

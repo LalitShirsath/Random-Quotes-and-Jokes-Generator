@@ -47,7 +47,7 @@ hr{
     margin-top: 10px;
 }
 
-.buttons button {
+/* .buttons button {
     cursor: pointer;
     border: none;
     color: rgb(241, 239, 241);
@@ -56,9 +56,9 @@ hr{
     background-color: indianred;
     padding: 10px;
     border-radius: 4px;
-}
+} */
 
-.tweet-btn{
+/* .tweet-btn{
     color: rgb(241, 239, 241);
     text-decoration: none;
     font-size: 20px;
@@ -66,4 +66,4 @@ hr{
     background-color: indianred;
     padding: 10px;
     border-radius: 4px;
-}
+} */
