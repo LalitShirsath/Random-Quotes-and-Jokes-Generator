@@ -53,29 +53,21 @@
     <!-- new quotes -->
 
     <div class="container">
-      <div class="quotes"></div>
-      <div class="author"></div>
-      <button id="Qbtn">New Quotes</button>
+      <h2 class="quote">Well begun is half done.</h2>
+
+      <hr>
+
+      <h5 class="author">Aristotle</h5>
+      <div class="buttons">
+        <a class="tweet-btn"
+            href="https://twitter.com/intent/tweet?text=Well begun is half done. -- By Aristotal">
+          Tweet</a>
+        <button id="Qbtn">Next</button>
+      </div>
     </div>
 
     
-
-    <script>
-      const quote = document.querySelector(".quotes");
-      const author = document.querySelector(".author");
-      const btn = document.querySelector("#Qbtn");
-
-      btn.addEventListener("click",generate);
-
-      function generate(){
-        fetch("http://api.quotable.io/random")
-        .then(res => res.json())
-        .then(data => {
-           quote.innerHTML = `"${data.content}"`;
-           author.innerHTML = data.author;
-        })
-      }
-    </script>
+    <script src="quotes.js"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
