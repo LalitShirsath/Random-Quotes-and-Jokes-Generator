@@ -1,2 +1,1 @@
-# Quotes App
- 
+# Random Quotes and Jokes Generator
