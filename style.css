@@ -1,17 +1,29 @@
 *{
     box-sizing: border-box;
 }
+
+.title-box{
+    color: rgb(47, 0, 255);
+    border: 10px red;
+    background-color: rgb(0, 255, 55);
+    /* padding: 10px auto; */
+    margin: 50px 50px;
+    border-radius: 30px;
+}
+#title{
+    margin: 0px 150px;
+    /* padding: 5px; */
+}
+
 .all-cards{
-    /* margin-top: 220px;
-    margin-left: 300px; */
     margin-left: 200px; 
     padding: 200px 200px;
 }
+
 body{
     /* background-color: rgb(248, 171, 156); */
     background-image: url(images/bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(20px);
-    
 }
