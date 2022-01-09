@@ -4,11 +4,17 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: linear-gradient(to bottom right, rgb(240, 52, 52), yellow,green,blue);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 200vh;
+    /* height: 200vh; */
 }
 
 .container{
@@ -18,7 +24,7 @@
     align-items: center;
     padding: 20px;
     width: 800px;
-    margin: 100px auto;
+    margin: 260px auto;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
     border-radius: 20px;
     background-color: rgba(245, 118, 118, 0.3);
@@ -31,7 +37,9 @@
 .quote{
     text-align: center;
     font-style: italic;
-    color: green;
+    margin: 100px auto;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
 }
 
 hr{
